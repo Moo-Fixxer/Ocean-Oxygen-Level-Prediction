@@ -1,10 +1,10 @@
 # 🌊 Ocean-Oxygen-Level-Prediction
 
-Modeled oceanic oxygen levels based on environmental factors like depth, salinity, and temperature
+This project analyzes how depth, temperature, and salinity affect oxygen concentration in seawater. 
 
 Cleaned missing data, removed outliers using z-scores, and normalized features for better ML performance
 
-Achieved R² = 0.8222 and MAE = 0.52 with a Random Forest Regressor; depth was most important feature
+Using a cleaned and transformed dataset, we applied both linear and non-linear models, with Random Forest Regression achieving the best performance (R² = 0.82, MAE = 0.52).
 
 Used cross-validation and visualization (scatterplots, time series, correlation matrices) to support conclusions
 
